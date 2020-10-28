@@ -1,0 +1,23 @@
+body{
+    border: 2px solid Black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#out{
+    width:100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+h2 {
+    color: blueviolet;
+    background-color:silver;
+    width:80%
+}
+h1{
+    color:palevioletred;
+}
+th,td{
+     
+    border: 2px solid gray;
+}
