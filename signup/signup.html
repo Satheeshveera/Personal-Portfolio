@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="../css/signup.css" />
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <h2>Sign Up</h2>
+        <br />
+        <div class="elements">
+          <input type="text" id="name" name="name" placeholder="Name" />
+
+          <input
+            type="email"
+            id="email_id"
+            name="email_id"
+            placeholder="Email ID"
+          />
+
+          <input
+            type="number"
+            id="mobile"
+            name="mobile"
+            placeholder="Mobile No"
+          />
+
+          <input
+            type="password"
+            id="pass"
+            name="pass"
+            placeholder="Enter the password"
+          />
+          <input
+            type="password"
+            id="c_pass"
+            name="c_pass"
+            placeholder="Conform Password"
+          />
+
+          <label>Gender</label>&emsp;&emsp;&emsp;&emsp;
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label><br />
+
+          <label>Language Known</label>&emsp;&emsp;
+          <input type="checkbox" id="l-tamil" name="l-tamil" value="Tamil" />
+          <label for="l-tamil"> Tamil</label>
+          <input type="checkbox" id="l-tamil" name="l-tamil" value="Tamil" />
+          <label for="l-tamil"> Tamil</label>
+
+          <textarea aria-multiline="true" placeholder="Bio"></textarea>
+          <br />
+          <button type="submit">SignUp</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
