@@ -62,3 +62,11 @@ button{
 button:hover{
     background-color:rgb(255, 193, 78);
 }
+#name,
+#email_id,
+#pass,
+#c_pass,
+#mobile,textarea:active{
+    color: darkcyan;
+}
+
